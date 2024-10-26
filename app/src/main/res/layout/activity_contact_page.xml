@@ -19,12 +19,12 @@
         app:srcCompat="@drawable/logobanner" />
 
     <TextView
-        android:id="@+id/sixWeekTitle"
+        android:id="@+id/contactTitle"
         android:layout_width="319dp"
         android:layout_height="39dp"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/panton_black_caps"
-        android:text="6 Week Courses"
+        android:text="Contact us"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30dp"
@@ -34,68 +34,57 @@
         app:layout_constraintTop_toBottomOf="@+id/logoBanner"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Button
-        android:id="@+id/childMindingButton"
-        android:layout_width="232dp"
-        android:layout_height="81dp"
-        android:layout_marginTop="52dp"
-        android:backgroundTint="@color/grey"
+    <TextView
+        android:id="@+id/contactContent"
+        android:layout_width="330dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/panton_black_caps"
-        android:text="Child Minding"
+        android:text="Have questions or need assistance? We’re here to help!"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sixWeekTitle"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
+        app:layout_constraintVertical_bias="0.125" />
 
-    <Button
-        android:id="@+id/cookingButton"
-        android:textColor="@color/white"
-        android:layout_width="232dp"
-        android:layout_height="81dp"
-        android:layout_marginTop="40dp"
-        android:backgroundTint="@color/grey"
+    <TextView
+        android:id="@+id/contactContentInfo"
+        android:layout_width="343dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/panton_black_caps"
-        android:text="Cooking"
-        android:textSize="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/childMindingButton" />
-
-    <Button
-        android:id="@+id/gardenMatienceButton"
+        android:text="Email: \nsupport@empoweringthenation.co.za\n
+        \nPhone:\n +27 87 123 4567
+        \n\n Our support team is available Monday to Friday, 9 AM to 5 PM."
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:layout_width="232dp"
-        android:layout_height="81dp"
-        android:layout_marginTop="48dp"
-        android:backgroundTint="@color/grey"
-        android:fontFamily="@font/panton_black_caps"
-        android:text="Garden Maintenance"
-        android:textSize="25dp"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cookingButton" />
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
+        app:layout_constraintVertical_bias="0.593" />
 
     <Button
-        android:id="@+id/sixWeekHome"
+        android:id="@+id/contactHome"
         android:layout_width="158dp"
         android:layout_height="74dp"
-        android:layout_marginTop="196dp"
         android:backgroundTint="@color/grey"
-        android:textColor="@color/white"
         android:fontFamily="@font/panton_black_caps"
         android:text="Home"
+        android:textColor="@color/white"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cookingButton" />
+        app:layout_constraintTop_toBottomOf="@+id/contactTitle"
+        app:layout_constraintVertical_bias="0.928" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

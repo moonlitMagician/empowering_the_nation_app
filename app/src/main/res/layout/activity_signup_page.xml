@@ -13,17 +13,16 @@
         android:id="@+id/fullNameTitle"
         android:layout_width="225dp"
         android:layout_height="62dp"
-        android:layout_marginTop="92dp"
         android:fontFamily="@font/panton_black_caps"
         android:text="Full Name:"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/emailTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.659" />
+        app:layout_constraintVertical_bias="0.228" />
 
     <TextView
         android:id="@+id/emailTitle"
@@ -34,23 +33,26 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="289dp" />
+        app:layout_constraintTop_toBottomOf="@+id/fullNameEdit"
+        app:layout_constraintVertical_bias="0.069" />
 
     <TextView
         android:id="@+id/passwordTitle"
         android:layout_width="225dp"
         android:layout_height="62dp"
-        android:layout_marginTop="20dp"
         android:fontFamily="@font/panton_black_caps"
         android:text="Password:"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
 
     <EditText
         android:id="@+id/fullNameEdit"
@@ -92,10 +94,12 @@
         android:backgroundTint="@color/white"
         android:ems="10"
         android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordTitle"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/createAccountButton"

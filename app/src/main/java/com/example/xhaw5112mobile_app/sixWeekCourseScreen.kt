@@ -28,5 +28,26 @@ class sixWeekCourseScreen : AppCompatActivity() {
             val intent = Intent(this, homeScreen::class.java)
             startActivity(intent)
         }
+
+        gardenMaintenanceButton.setOnClickListener {
+            val intent = Intent(this, selectedCoursePage::class.java)
+            intent.putExtra("course_name", "Garden Maintenance")
+            intent.putExtra("course_image", R.drawable.garden_image)
+            startActivity(intent)
+        }
+
+        cookingButton.setOnClickListener {
+            val intent = Intent(this, selectedCoursePage::class.java)
+            intent.putExtra("course_name", "Cooking")
+            intent.putExtra("course_image", R.drawable.cooking_image)
+            startActivity(intent)
+        }
+
+        childMindingButton.setOnClickListener {
+            val intent = Intent(this, selectedCoursePage::class.java)
+            intent.putExtra("course_name", "Child Minding")
+            intent.putExtra("course_image", R.drawable.childminding_image)
+            startActivity(intent)
+        }
     }
 }

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupPage"
+    android:background="@drawable/background_image">
+
+    <ImageView
+        android:id="@+id/courseImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tint="#88000000"
+        android:tintMode="src_atop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cooking_image" />
+
+    <ImageView
+        android:id="@+id/logoBanner"
+        android:layout_width="452dp"
+        android:layout_height="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logobanner" />
+
+    <TextView
+        android:id="@+id/CourseTitle"
+        android:layout_width="373dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="6 Week course - null"
+        android:elevation="4dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/courseInfo"
+        android:layout_width="303dp"
+        android:layout_height="472dp"
+        android:layout_marginTop="4dp"
+        android:elevation="4dp"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="this is a test for creating the information on the course, this is a test for creating the information on the course,.
+this is a test for creating the information on the course"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <Button
+        android:id="@+id/coursePageHome"
+        android:layout_width="158dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

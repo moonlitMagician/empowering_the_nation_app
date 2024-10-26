@@ -31,5 +31,33 @@ class sixMonthCourseScreen : AppCompatActivity() {
             val intent = Intent(this, homeScreen::class.java)
             startActivity(intent)
         }
+
+        firstAidButton.setOnClickListener {
+            val intent = Intent(this, selectedCoursePage::class.java)
+            intent.putExtra("course_name", "First Aid")
+            intent.putExtra("course_image", R.drawable.firstaid_image)
+            startActivity(intent)
+        }
+
+        sewingButton.setOnClickListener {
+            val intent = Intent(this, selectedCoursePage::class.java)
+            intent.putExtra("course_name", "Sewing")
+            intent.putExtra("course_image", R.drawable.sewing_image)
+            startActivity(intent)
+        }
+
+        landscapingButton.setOnClickListener {
+            val intent = Intent(this, selectedCoursePage::class.java)
+            intent.putExtra("course_name", "Landscaping")
+            intent.putExtra("course_image", R.drawable.landscaping_image)
+            startActivity(intent)
+        }
+
+        lifeSkillButton.setOnClickListener {
+            val intent = Intent(this, selectedCoursePage::class.java)
+            intent.putExtra("course_name", "Life Skills")
+            intent.putExtra("course_image", R.drawable.lifeskills_image)
+            startActivity(intent)
+        }
     }
 }

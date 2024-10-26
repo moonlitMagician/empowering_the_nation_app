@@ -32,8 +32,17 @@ class homeScreen : AppCompatActivity() {
         }
 
         sixMonthButton.setOnClickListener {
-            println("going to six month courses")
             val intent = Intent(this, sixMonthCourseScreen::class.java)
+            startActivity(intent)
+        }
+
+        contactUsButton.setOnClickListener {
+            val intent = Intent(this, contactPage::class.java)
+            startActivity(intent)
+        }
+
+        joinCourseButton.setOnClickListener {
+            val intent = Intent(this, checkoutScreen::class.java)
             startActivity(intent)
         }
     }

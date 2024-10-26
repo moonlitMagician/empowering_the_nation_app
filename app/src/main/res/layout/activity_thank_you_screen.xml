@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupPage"
+    android:background="@drawable/background_image">
+
+    <ImageView
+        android:id="@+id/logoBanner"
+        android:layout_width="452dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logobanner" />
+
+    <TextView
+        android:id="@+id/finalizeTitle"
+        android:layout_width="315dp"
+        android:layout_height="362dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="Thank you for your purchase!\n\n We Appreciate your support and investement, goodluck on your education journey, and happy Learning!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <Button
+        android:id="@+id/thankYouHome"
+        android:layout_width="153dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Xhaw5112mobile_app"
         tools:targetApi="31">
         <activity
+            android:name=".thankYouScreen"
+            android:exported="false" />
+        <activity
+            android:name=".finalizeCheckoutScreen"
+            android:exported="false" />
+        <activity
+            android:name=".checkoutScreen"
+            android:exported="false" />
+        <activity
+            android:name=".selectedCoursePage"
+            android:exported="false" />
+        <activity
+            android:name=".contactPage"
+            android:exported="false" />
+        <activity
             android:name=".sixMonthCourseScreen"
             android:exported="false" />
         <activity
